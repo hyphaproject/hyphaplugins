@@ -25,7 +25,7 @@ set(DEFAULT_PROJECT_OPTIONS
 )
 
 find_package(Boost COMPONENTS signals thread system filesystem REQUIRED)
-find_package(Poco COMPONENTS Foundation Util Net Data DataMySQL DataSQLite REQUIRED)
+find_package(Poco COMPONENTS Foundation Util Net Data DataMySQL DataSQLite Redis REQUIRED)
 find_package(hypha COMPONENTS core utils plugin handler)
 
 # 
